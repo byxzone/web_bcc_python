@@ -1,0 +1,9 @@
+host: 0.0.0.0
+port: 8088
+max_running_time: 10
+
+program_map:
+# - prog_name: prog_file_name
+  - hello_world: template 
+  - cpuutilize: cpuutilize
+
